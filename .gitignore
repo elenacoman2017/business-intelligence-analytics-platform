@@ -1,0 +1,87 @@
+# ------------------------------------------------------------
+# PYTHON TEMPORARY FILES
+# ------------------------------------------------------------
+
+# Python creates __pycache__ folders when code is executed.
+# These contain temporary compiled files and do not need to
+# be uploaded to GitHub.
+__pycache__/
+*.py[cod]
+
+# ------------------------------------------------------------
+# JUPYTER NOTEBOOK TEMPORARY FILES
+# ------------------------------------------------------------
+
+# Jupyter automatically creates checkpoint folders.
+# These are temporary backups of notebook files.
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# PRIVATE DATASETS
+# ------------------------------------------------------------
+
+# Ignore the contents of the raw data folder.
+# Raw datasets may contain confidential or licensed information.
+data/raw/*
+
+# Ignore the contents of the processed data folder.
+# Processed datasets can also contain sensitive information.
+data/processed/*
+
+# Ignore the contents of the external data folder.
+# External datasets may have redistribution restrictions.
+data/external/*
+
+# Keep placeholder files so Git preserves empty data folders.
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# ------------------------------------------------------------
+# ENVIRONMENT AND CONFIGURATION FILES
+# ------------------------------------------------------------
+
+# Local environment variables may contain API keys or secrets.
+.env
+.env.*
+
+# Allow an example environment file to be published.
+!.env.example
+
+# Ignore local virtual environments.
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------
+# OPERATING SYSTEM FILES
+# ------------------------------------------------------------
+
+# Windows may create these automatically.
+Thumbs.db
+Desktop.ini
+
+# macOS may create these automatically.
+.DS_Store
+
+# ------------------------------------------------------------
+# GENERATED OUTPUTS
+# ------------------------------------------------------------
+
+# Ignore generated figures and reports by default.
+# We can selectively include approved portfolio examples later.
+outputs/figures/*
+outputs/reports/*
+
+# Keep placeholder files so Git preserves these folders.
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# ------------------------------------------------------------
+# EDITOR AND DEVELOPMENT FILES
+# ------------------------------------------------------------
+
+# Ignore common editor settings and temporary files.
+.vscode/
+.idea/
+*.log

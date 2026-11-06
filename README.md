@@ -21,8 +21,14 @@ Python, open-source technologies and public or synthetic datasets.
 **Development status:** Initial project setup and documentation
 completed. Analytical modules are planned and will be developed
 incrementally.
-\n\n
-## 2. Project Objectives
+
+
+
+## Development Approach
+
+The project will be developed incrementally. Each analytical module will include documented methodology, reproducible workflows, appropriate evaluation and, where applicable, automated tests. Implementation decisions and limitations will be documented as the platform evolves.
+
+2. Project Objectives
 
 The main objectives are to:
 
@@ -36,7 +42,9 @@ The main objectives are to:
 - Evaluate predictive models using appropriate statistical and machine learning metrics.
 - Apply explainable AI techniques where appropriate.
 - Present analytical results through clear visualisations and reports.
-\n\n
+
+
+
 ## 3. Planned Analytical Modules
 
 The platform is organised into six main analytical modules.
@@ -119,7 +127,9 @@ Planned capabilities:
 - Statistical forecasting models.
 - Machine learning approaches where justified.
 - Model comparison and evaluation.
-\n\n
+
+
+
 ## 4. Methodology
 
 The project will use the Cross-Industry Standard Process for
@@ -143,7 +153,9 @@ before more complex models are introduced.
 Model performance will be evaluated using metrics suited to
 the specific analytical task. The project will not rely on
 accuracy alone when evaluating classification models.
-\n\n
+
+
+
 ## 5. Technologies and Tools
 
 The initial development environment uses Python 3.12.7.
@@ -168,7 +180,9 @@ The initial development environment uses Python 3.12.7.
 The platform will initially be developed using Python and
 Jupyter Notebook. Application frameworks may be introduced
 at a later stage if they provide a clear benefit.
-\n\n
+
+
+
 ## 6. Project Structure
 
 The repository is organised into separate directories to
@@ -214,7 +228,9 @@ support modular development and maintainability.
 - `docs/`: Technical documentation and supporting material.
 - `outputs/figures/`: Generated charts and visualisations.
 - `outputs/reports/`: Generated analytical reports.
-\n\n
+
+
+
 ## 7. Installation and Reproduction
 
 The project is being developed with Python 3.12.7.
@@ -223,9 +239,9 @@ To reproduce the development environment, follow these steps.
 
 ### Step 1: Clone the repository
 
-Replace `YOUR-USERNAME` with the GitHub username of the repository owner.
+Replace `elenacoman2017` with the GitHub username of the repository owner.
 
-    git clone https://github.com/YOUR-USERNAME/business-intelligence-analytics-platform.git
+    git clone https://github.com/elenacoman2017/business-intelligence-analytics-platform.git
 
 ### Step 2: Enter the project directory
 
@@ -262,7 +278,9 @@ want to run.
 **Note:** The installation instructions will be validated
 in a clean environment before the project is considered
 fully reproducible.
-\n\n
+
+
+
 ## 8. Data Sources and Privacy
 
 The project will use public datasets and/or synthetic data.
@@ -276,7 +294,9 @@ permitted use before being included or redistributed.
 
 Dataset sources and relevant usage restrictions will be
 documented as the analytical modules are developed.
-\n\n
+
+
+
 ## 9. Evaluation and Responsible Use
 
 The project will prioritise appropriate evaluation,
@@ -297,7 +317,9 @@ Key principles include:
 Results from public or synthetic datasets may not generalise
 to real business environments. This limitation will be
 considered when interpreting findings.
-\n\n
+
+
+
 ## 10. Development Roadmap
 
 The project will be developed in phases.
@@ -306,7 +328,7 @@ The project will be developed in phases.
 |---|---|---|
 | 1 | Project definition and objectives | Completed |
 | 2 | Initial research and methodology selection | Completed |
-| 3 | Architecture and environment setup | In progress |
+| 3 | Architecture and environment setup | Completed |
 | 4 | Data acquisition and preparation | Planned |
 | 5 | Sales analytics | Planned |
 | 6 | Customer analytics | Planned |
@@ -319,7 +341,9 @@ The project will be developed in phases.
 
 The roadmap may be refined as the project develops and
 the characteristics of the selected datasets become clearer.
-\n\n
+
+
+
 ## 11. Project Purpose
 
 This project is intended to demonstrate practical skills in:
